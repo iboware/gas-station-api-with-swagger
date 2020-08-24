@@ -1,6 +1,6 @@
 # gas-station-api-with-swagger
 
-It supports ODATA V4 queries A swagger UI available under your development path `/swagger/`.
+It supports ODATA V4 queries. A swagger UI available under your development path `/swagger/`.
 
 Example query:
 ```
