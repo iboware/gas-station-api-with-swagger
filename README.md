@@ -4,7 +4,7 @@ It supports ODATA V4 queries. A swagger UI available under your development path
 
 Example query:
 ```
-https://localhost:5001/TankStelle?$orderby=street&$filter=contains(street,'Flug')
+https://localhost:5001/GasStation?$orderby=street&$filter=contains(street,'Flug')
 ```
 Resulting json:
 
