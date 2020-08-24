@@ -37,10 +37,10 @@ namespace GasStation.Controllers
 
             HttpResponseMessage response = await _client.GetAsync(URL);
             string jsonResponse = await response.Content.ReadAsStringAsync();
-            GasStationResponse tankstelle = JsonConvert.DeserializeObject<GasStationResponse>(jsonResponse);
+            GasStationResponse gasStationResponse = JsonConvert.DeserializeObject<GasStationResponse>(jsonResponse);
 
 
-            return tankstelle.features.Select(x => new GasStationResult(x.attributes.ADRESSE)
+            return gasStationResponse.features.Select(x => new GasStationResult(x.attributes.ADRESSE)
             {
                 Id = x.attributes.OBJECTID,
                 Latitude = string.Format("{0:0.00000}", x.geometry.x),

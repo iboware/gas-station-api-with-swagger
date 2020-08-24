@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "TankStelle": {
+    "GasStation": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",
