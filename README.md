@@ -20,3 +20,4 @@ Resulting json:
     }
 ]
 ```
+A reference for ODATA queries: https://help.nintex.com/en-us/insight/OData/HE_CON_ODATAQueryCheatSheet.htm
