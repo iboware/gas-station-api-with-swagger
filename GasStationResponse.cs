@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-namespace TankStelle
+namespace GasStation
 {
 public class FieldAliases    {
         public string OBJECTID { get; set; } 
@@ -33,7 +33,7 @@ public class FieldAliases    {
         public Geometry geometry { get; set; } 
     }
 
-    public class TankStelleResponse    {
+    public class GasStationResponse    {
         public string displayFieldName { get; set; } 
         public FieldAliases fieldAliases { get; set; } 
         public string geometryType { get; set; } 

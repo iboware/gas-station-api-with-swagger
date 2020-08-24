@@ -1,8 +1,8 @@
-namespace TankStelle
+namespace GasStation
 {
-    public class TankStelleResult
+    public class GasStationResult
     {
-        public TankStelleResult(string address)
+        public GasStationResult(string address)
         {
             var addressObject = Helpers.AddressHelper.TryParse(address);
             Street = addressObject.Street;

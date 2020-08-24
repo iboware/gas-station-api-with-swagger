@@ -1,4 +1,4 @@
-namespace TankStelle.Helpers
+namespace GasStation.Helpers
 {
     public static class AddressHelper
     {

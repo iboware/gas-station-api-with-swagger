@@ -1,4 +1,4 @@
-namespace TankStelle
+namespace GasStation
 {
     public class Address
     {
